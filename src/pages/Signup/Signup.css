@@ -1,0 +1,152 @@
+div.signup-page-container div.page-wrapper {
+    display: flex;
+    margin: 3% 8% 4% 8%;
+    align-items: center;
+    box-shadow: 1px 2px 8px rgb(206 195 195 / 65%);
+    border-radius: 15px;
+    background-color: #ffffff;
+     min-height: 560px;
+}
+
+div.signup-page-container {
+    display: table;
+    width: 88%;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+div.signup-page-container div.signup-page {
+    display: table-cell;
+    vertical-align: middle;
+   
+}
+
+div.signup-left-container, div.signup-right-container {
+    width: 50%;
+} 
+
+div.signup-page-container div.signup-page  div.signup-left-container {
+    position: relative;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+div.signup-page-container div.signup-page  div.signup-right-container {
+    position: relative;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
+div.img-container img{
+    margin: auto;
+    width: 60%;
+}
+
+div.img-container {
+    display: block;
+}
+
+
+div.right-wrapper {
+    padding: 10% 5%;
+}
+
+div.form-wrapper-signup {
+    margin-left: 15%;
+}
+
+
+div.signup-input-form input.name , div.signup-input-form input.password ,div.signup-input-form input.email,div.signup-input-form input.passwordrepeat {
+    border: none;
+    border-bottom: 1px solid #000000;
+    width: 90%;
+    font-size: 0.9rem;
+    font-weight: 300;
+    letter-spacing: 0.03em;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    transition: 0.2s ease-in;
+}
+
+
+input.name::-webkit-input-placeholder ,input.password::-webkit-input-placeholder,input.email::-webkit-input-placeholder,
+input.passwordrepeat::-webkit-input-placeholder{ 
+    line-height: 1.5em;
+    padding-left: 8px;
+  }
+
+div.signup-input-form input[type=text]:focus, select:focus {
+    outline: none;
+  }
+
+div.signup-input-form input[type=password]:focus, select:focus {
+    border-bottom: 1px solid #0390bb;
+  }
+div.signup-input-form input[type=text]:focus, select:focus {
+    border-bottom: 1px solid #0390bb;
+  }
+div.signup-input-form input[type=email]:focus, select:focus {
+    border-bottom: 1px solid #0390bb;
+  }
+
+div.signup-input-form {
+    padding: 3% 0;
+}
+
+div.checkbox-signup{
+    display: flex;
+    align-items: center;
+}
+input.checkbox {
+    margin: 0;
+}
+
+div.signup-input-form  label.accept{
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+}
+
+div.signup-input-form input:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+
+button.signup-btn {
+    background-color: #6dabe4;
+    color : #ffffff;
+    border :none;
+    border-radius: 5px;
+    padding: 3% 5%;
+    cursor: pointer;
+    margin-top: 5%;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+div.signin-link a {
+    color: #000000;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.signin-link {
+    margin-top: 8%
+}
+
+button a {
+    color: #ffffff ;
+    text-decoration: none;
+}

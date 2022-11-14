@@ -1,0 +1,27 @@
+.search-box i{
+    position: absolute;
+    left: 1%;
+    top: 30%;
+    color: rgb(194, 194, 194);
+    width: 75px;
+    height: 75px;
+}
+
+.search-box {
+    position: relative;
+}
+
+.search-box input {
+    padding: 3px 40px;
+    width: 40%;
+    background-color: #ffffff;
+    border: 1px solid rgb(238, 235, 235);
+    box-shadow: 0 0 5px 5px rgb(240, 240, 240);
+    line-height: 3;
+    border-radius: 5px;
+   
+}
+
+.search-box input:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+}
